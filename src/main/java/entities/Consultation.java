@@ -40,4 +40,14 @@ public class Consultation {
     @ManyToOne
     @JoinColumn(name = "salle_id")
     private Salle salles;
+
+    public Object getId() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getId'");
+    }
+
+    public void setId(Object id2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setId'");
+    }
 }

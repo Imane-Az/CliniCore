@@ -36,4 +36,14 @@ public class Reservation {
     @ManyToOne
     @JoinColumn(name = "infermiere_id")
     private Infermiere infermiere;
+
+    public Object getId() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getId'");
+    }
+
+    public void setId(Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setId'");
+    }
 }
